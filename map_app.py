@@ -26,7 +26,7 @@ if submitted:
 
     folium.Marker(
         # 緯度と経度を指定pip
-        location=[33.2928452, 130.297359],
+        location=[lat,lng],
         # ツールチップの指定
         tooltip="my_home",
         # ポップアップの指定
