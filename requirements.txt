@@ -1,3 +1,6 @@
-
-folium
+Streamlit version: 1.26.0
+Streamlit-folium version: 0.13.0
+Folium version: 0.14.0
+Python version: 3.9.13
+Browser version: Chrome
 
