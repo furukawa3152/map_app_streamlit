@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_folium import st_folium
+import streamlit_folium
 import folium
 # ページ設定
 st.set_page_config(
@@ -27,4 +27,4 @@ folium.Marker(
     icon=folium.Icon(icon="home",icon_color="white", color="red")
 ).add_to(m)
 
-st_data = st_folium(m, width=1200, height=800)
+st_data = streamlit_folium.st_folium(m, width=1200, height=800)
