@@ -13,7 +13,7 @@ m = folium.Map(
     # タイル、アトリビュートの指定
     tiles="OpenStreetMap",
     # ズームを指定
-    zoom_start=6
+    zoom_start=10
 )
 
 folium.Marker(
